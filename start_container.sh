@@ -5,4 +5,4 @@ set -e
 docker pull nandishpm/retail-python-app
 
 # Run the Docker image as a container
-docker run -d 5000:5000 nandishpm/retail-python-app
+docker run -d -p 5000:5000 nandishpm/retail-python-app
